@@ -38,19 +38,23 @@ public class Produto implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
+    public String getNome() {
         return nome;
     }
 
-    public void setName(String name) {
-        this.nome = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public Double getPrice() {
+    public Double getPreco() {
         return preco;
     }
 
-    public void setPrice(Double price) {
-        this.preco = price;
+    public void setPreco(Double preco) {
+        this.preco = preco;
+    }
+
+    public List<Categoria> getCategorias() {
+        return categorias;
     }
 }
